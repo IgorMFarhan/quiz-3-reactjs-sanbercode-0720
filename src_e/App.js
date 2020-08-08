@@ -1,8 +1,7 @@
 import React from 'react';
-// import './App.css';
 import './public/css/style.css';
 import {BrowserRouter as Router} from 'react-router-dom'
-import Routes from './home/Routes'
+import Routes from './quiz3/Routes'
 
 function App() {
   return (
@@ -13,4 +12,5 @@ function App() {
     </div>
   );
 }
+
 export default App;

@@ -1,0 +1,261 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  *{
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  body{
+    background-image: url('../img/pattern.jpg');
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .logo{
+    content:url('../img/logo.png')
+  }
+  
+  header{
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    vertical-align: middle;
+  }
+  
+  header.light{
+    background-color:white;
+  }
+  
+  header.dark{
+    background-color:black;
+  }
+  
+  
+  
+  header img{
+    float: left;
+    position: relative;
+  }
+  
+  .button-theme{
+    position: relative;
+    margin: 15px 50px;
+  }
+  
+  header nav{
+    float: right;
+    position: relative;
+  }
+  
+  .navbar{
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+  background: #ddd;
+  color: black;
+  }
+  
+  footer{
+    overflow: hidden;
+    background-color:black;
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  header nav ul a{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  
+  
+  section{
+    padding: 50px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  
+  .container-tugas11{
+    text-align: center;
+  }
+  
+  table{
+      text-align:center; 
+      margin-left:auto; 
+      margin-right:auto; 
+      
+      
+  }
+  
+  form{
+      text-align:center; 
+      margin-left:auto; 
+      margin-right:auto; 
+      width:100%;
+  }
+  
+  table.tugas11{
+    width:50%;
+    border: 1px solid black;
+  }
+  
+  table.tbl-form-buah{
+    width: 50%;
+  }
+  
+  table.tugas11 thead{
+    background-color: #aaaaaa;
+    font-weight: bold;
+  }
+  
+  table.tugas11 tbody{
+    background-color: #ff7f50;
+    text-align: left;
+  }
+  
+  .action-col{
+    text-align: center;
+  }
+  
+  .label-left{
+    float: left;
+  }
+  
+  .label-right{
+    float: right;
+  }
+  
+  .align-left{
+    text-align: left;
+  }
+  
+  .label{
+    font-weight: bold;
+  }
+  
+  button{
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  button.form{
+    float: right;
+  }
+  
+  input[type="text"]{
+    width: 100%;
+  }
+  
+  .form-buah{
+    margin: 20px auto;
+    padding: 20px 0px;
+    width: 50%;
+    border: 1px solid black;
+  }
+  
+  .title{
+    text-align: center;
+  }
+  
+  
+  
