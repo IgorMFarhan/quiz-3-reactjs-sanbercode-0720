@@ -1,85 +1,3 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-*{
-  font-family: 'Times New Roman', Times, serif;
-}
-
 body{
   background-image: url('../img/pattern.jpg');
   padding: 0;
@@ -97,26 +15,12 @@ header{
   width: 100%;
   top: 0;
   vertical-align: middle;
-}
-
-header.light{
   background-color:white;
 }
-
-header.dark{
-  background-color:black;
-}
-
-
 
 header img{
   float: left;
   position: relative;
-}
-
-.button-theme{
-  position: relative;
-  margin: 15px 50px;
 }
 
 header nav{
@@ -144,16 +48,6 @@ background: #ddd;
 color: black;
 }
 
-footer{
-  overflow: hidden;
-  background-color:black;
-  color: white;
-  text-align: center;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-}
-
 header nav ul a{
   float: left;
   display: block;
@@ -163,54 +57,22 @@ header nav ul a{
   position: relative;
 }
 
-
-
-section{
-  padding: 50px;
-  margin-top: 60px;
-  margin-bottom: 80px;
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+section {
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: white;
+  position: relative;
+  top: 70px;
+  padding: 20px;
+  margin-bottom: 100px;
 }
 
-.container-tugas11{
-  text-align: center;
-}
-
-table{
-    text-align:center; 
-    margin-left:auto; 
-    margin-right:auto; 
-    
-    
-}
 
 form{
     text-align:center; 
     margin-left:auto; 
     margin-right:auto; 
     width:100%;
-}
-
-table.tugas11{
-  width:50%;
-  border: 1px solid black;
-}
-
-table.tbl-form-buah{
-  width: 50%;
-}
-
-table.tugas11 thead{
-  background-color: #aaaaaa;
-  font-weight: bold;
-}
-
-table.tugas11 tbody{
-  background-color: #ff7f50;
-  text-align: left;
 }
 
 .action-col{
@@ -242,19 +104,54 @@ button.form{
   float: right;
 }
 
-input[type="text"]{
-  width: 100%;
+input[type='text']{
+  width: 70%;
 }
 
-.form-buah{
-  margin: 20px auto;
-  padding: 20px 0px;
-  width: 50%;
-  border: 1px solid black;
+input[type='number']{
+  width: 70%;
 }
 
 .title{
   text-align: center;
 }
+
+footer {
+  display: flex;
+  position: relative;
+  width: 100%;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  background-color: black;
+  color: white;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  text-align: center;
+  font-size: 2em;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 80%;
+  
+}
+
+label{
+  font-weight: bold;
+  margin-right: 10px;
+}
+ 
 
 

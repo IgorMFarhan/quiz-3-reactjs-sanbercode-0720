@@ -34,6 +34,7 @@ const FruitList = () => {
     }
 
     return(
+        <section>
         <div className="container-tugas11">
             <h1>Tabel Harga Buah</h1>
             <table className="tugas11">
@@ -66,6 +67,7 @@ const FruitList = () => {
             </tbody>
             </table>
         </div>
+        </section>
     )
 }
 

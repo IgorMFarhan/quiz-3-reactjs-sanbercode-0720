@@ -108,7 +108,7 @@ const HargaBuah = () => {
       return(
         <>
         <div className="container-tugas11">
-        <h1 className="title">Tabel Harga Buah</h1>
+        <h1 className="title">Tabel Harga Buahan</h1>
             <table className="tugas11">
                 <thead>
                     <tr>
