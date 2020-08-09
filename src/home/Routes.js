@@ -22,19 +22,7 @@ const Routes = () => {
     return (
         <>
         <Header/>
-        {/* <header className="light">
-        <img id="logo" width="200px" className="logo"/>
-            <nav>
-                <div className="navbar">
-                    <Link to='/tugas11'>Tugas 11</Link>
-                    <Link to='/tugas12'>Tugas 12</Link>
-                    <Link to='/tugas13'>Tugas 13</Link>
-                    <Link to='/tugas14'>Tugas 14</Link>
-                    <Link to='/'>Tugas 15</Link>
-                </div>
-            </nav>
-        </header> */}
-
+        
         <section>
         <Switch>
           <Route path='/tugas11'>
