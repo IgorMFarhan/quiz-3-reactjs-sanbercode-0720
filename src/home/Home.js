@@ -25,37 +25,24 @@ const Home = () => {
   return(
     <>
       <h1>Daftar Film Terbaik</h1>
-      <table>
-        <thead>
-          <tr>
-            <th>No</th>
-            <th>Judul Film</th>
-            <th>Deskripsi</th>
-            <th>Tahun</th>
-            <th>Durasi</th>
-            <th>Genre</th>            
-            <th>Rating</th>
-          </tr>
-        </thead>
-        <tbody>
+      {
+        daftarFilm !== null && daftarFilm.sort((a, b) => b.rating - a.rating).map((item, index)=>{
+          return(    
+            <>
+            <h2>{item.title}</h2>
+            <strong>Rating: {item.rating}</strong><br></br>
+            <strong>Durasi: {item.duration/60} jam</strong><br></br>
+            <strong>Genre: {item.genre}</strong><br></br>
+            <strong>Deskripsi:</strong> {item.description}<br></br>
+            <hr></hr>
+            </>                    
+              
+            
 
-            {
-              daftarFilm !== null && daftarFilm.sort((a, b) => b.rating - a.rating).map((item, index)=>{
-                return(                    
-                  <tr key={index}>
-                    <td>{index+1}</td>
-                    <td>{item.title}</td>
-                    <td>{item.description}</td>
-                    <td>{item.year}</td>
-                    <td>{item.duration}</td>
-                    <td>{item.genre}</td>                    
-                    <td>{item.rating}</td>
-                  </tr>
-                )
-              })
-            }
-        </tbody>
-      </table>
+              
+          )
+        })
+      }
       
     </>
   )

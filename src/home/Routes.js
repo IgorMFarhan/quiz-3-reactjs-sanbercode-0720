@@ -1,8 +1,9 @@
 import React from "react";
-import {Switch, Route, Link} from 'react-router-dom';
+import {Switch, Route} from 'react-router-dom';
 import ListMovie from '../listmovie/ListMovie'
 import Home from './Home'
 import About from '../about/About'
+import Login from '../login/Login'
 import Header from './Header'
 
 
@@ -18,11 +19,17 @@ const Routes = () => {
             <Route path='/listmovie'>
                 <ListMovie />
             </Route>
+            <Route path='/login'>
+                <Login />
+            </Route>
             <Route path='/'>
                 <Home />
             </Route>
             </Switch>   
         </section>
+        <footer>
+            <h5>copyright &copy; 2020 by Sanbercode</h5>
+        </footer>
     </>
     )
 }
